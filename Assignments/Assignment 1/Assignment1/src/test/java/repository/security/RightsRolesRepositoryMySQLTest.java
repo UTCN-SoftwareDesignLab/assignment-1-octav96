@@ -35,7 +35,6 @@ public class RightsRolesRepositoryMySQLTest {
 
     @Test
     public void addRight() {
-//        rightsRolesRepository.deleteAllRights();
         rightsRolesRepository.addRight(CREATE_USER);
         assertTrue(rightsRolesRepository.findRightByTitle(CREATE_USER) != null);
     }
@@ -58,7 +57,6 @@ public class RightsRolesRepositoryMySQLTest {
 
     @Test
     public void findRightByTitle() {
-//        rightsRolesRepository.deleteAllRights();
         Right right = new Right(1l, CREATE_USER);
         rightsRolesRepository.addRight(right.getRight());
         assertTrue(rightsRolesRepository.findRightByTitle(CREATE_USER).getRight().equals(CREATE_USER));

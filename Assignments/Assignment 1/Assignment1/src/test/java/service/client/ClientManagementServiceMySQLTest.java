@@ -39,7 +39,6 @@ public class ClientManagementServiceMySQLTest {
         clientManagementService.setUserId(1l);
 
         Client client = new ClientBuilder()
-                //.setId(5l)
                 .setAddress("ABC")
                 .setPersonalNumericCode("123123123")
                 .setIdentityCardNumber(123123)
@@ -56,7 +55,6 @@ public class ClientManagementServiceMySQLTest {
         clientManagementService.setUserId(1l);
 
         Client client = new ClientBuilder()
-                //.setId(5l)
                 .setAddress("ABC")
                 .setPersonalNumericCode("123123123")
                 .setIdentityCardNumber(123123)
@@ -73,7 +71,6 @@ public class ClientManagementServiceMySQLTest {
         clientManagementService.setUserId(1l);
 
         Client client = new ClientBuilder()
-                //.setId(5l)
                 .setAddress("ABC")
                 .setPersonalNumericCode("123123123")
                 .setIdentityCardNumber(123123)
@@ -91,13 +88,11 @@ public class ClientManagementServiceMySQLTest {
         clientManagementService.setUserId(1l);
 
         Client client = new ClientBuilder()
-                //.setId(5l)
                 .setAddress("ABC")
                 .setPersonalNumericCode("123123123")
                 .setIdentityCardNumber(123123)
                 .setName("Costel").build();
         Client updateClient = new ClientBuilder()
-                //.setId(5l)
                 .setAddress("ABC")
                 .setPersonalNumericCode("123123123")
                 .setIdentityCardNumber(123123)
@@ -116,13 +111,11 @@ public class ClientManagementServiceMySQLTest {
         clientManagementService.setUserId(1l);
 
         Client client = new ClientBuilder()
-                //.setId(5l)
                 .setAddress("ABC")
                 .setPersonalNumericCode("123123123")
                 .setIdentityCardNumber(123123)
                 .setName("Costel").build();
         Client updateClient = new ClientBuilder()
-                //.setId(5l)
                 .setAddress("ABC")
                 .setPersonalNumericCode("123123123")
                 .setIdentityCardNumber(123123)
@@ -146,13 +139,11 @@ public class ClientManagementServiceMySQLTest {
         clientManagementService.setUserId(1l);
 
         Client client = new ClientBuilder()
-                //.setId(5l)
                 .setAddress("ABC")
                 .setPersonalNumericCode("123123123")
                 .setIdentityCardNumber(123123)
                 .setName("Costel").build();
         Client updateClient = new ClientBuilder()
-                //.setId(5l)
                 .setAddress("ABC")
                 .setPersonalNumericCode("123123123")
                 .setIdentityCardNumber(123123)
@@ -176,13 +167,11 @@ public class ClientManagementServiceMySQLTest {
         clientManagementService.setUserId(1l);
 
         Client client = new ClientBuilder()
-                //.setId(5l)
                 .setAddress("ABC")
                 .setPersonalNumericCode("123123123")
                 .setIdentityCardNumber(123123)
                 .setName("Costel").build();
         Client updateClient = new ClientBuilder()
-                //.setId(5l)
                 .setAddress("ABC")
                 .setPersonalNumericCode("123123123")
                 .setIdentityCardNumber(123123)

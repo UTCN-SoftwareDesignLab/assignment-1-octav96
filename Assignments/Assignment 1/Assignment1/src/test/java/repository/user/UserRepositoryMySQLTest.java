@@ -29,8 +29,6 @@ public class UserRepositoryMySQLTest {
     }
     @Test
     public void findAll() {
-
-       // rightsRolesRepository.deleteAllUserRole();
         userRepository.removeAll();
         Role role = new Role(1l,ADMINISTRATOR,null);
         User user = new UserBuilder().setUsername("Costel")

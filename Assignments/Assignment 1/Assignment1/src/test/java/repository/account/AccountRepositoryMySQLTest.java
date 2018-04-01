@@ -23,7 +23,7 @@ public class AccountRepositoryMySQLTest {
     }
     @Test
     public void findAll() {
-       // List<Account> accounts = accountRepository.findAll();
+
         accountRepository.deleteAll();
         Client client = new ClientBuilder()
                 .setId(5l)

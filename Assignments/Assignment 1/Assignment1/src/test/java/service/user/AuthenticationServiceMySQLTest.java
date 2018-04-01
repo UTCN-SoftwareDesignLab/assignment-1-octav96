@@ -34,7 +34,6 @@ public class AuthenticationServiceMySQLTest {
     @BeforeClass
     public static void setUp() {
         Connection connection = new DBConnectionFactory().getConnectionWrapper(true).getConnection();
-        //RightsRolesRepository rightsRolesRepository = new RightsRolesRepositoryMySQL(connection);
         rightsRolesRepository = new RightsRolesRepositoryMySQL(connection);
         userRepository = new UserRepositoryMySQL(connection, rightsRolesRepository);
 

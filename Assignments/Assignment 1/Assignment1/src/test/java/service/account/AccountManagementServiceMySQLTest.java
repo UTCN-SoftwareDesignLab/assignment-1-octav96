@@ -40,13 +40,12 @@ public class AccountManagementServiceMySQLTest {
         clientRepository.deleteAll();
         accountManagementService.setUserId(1l);
         Client client = new ClientBuilder()
-                //.setId(5l)
                 .setAddress("ABC")
                 .setPersonalNumericCode("123123123")
                 .setIdentityCardNumber(123123)
                 .setName("Costel").build();
         clientRepository.addClient(client);
-        Account account =  new AccountBuilder()//.setId(5l)
+        Account account =  new AccountBuilder()
                 .setAmount(500.5)
                 .setType("CREDIT")
                 .setClientId(clientRepository.findAll().get(0).getId())
@@ -62,13 +61,12 @@ public class AccountManagementServiceMySQLTest {
         clientRepository.deleteAll();
         accountManagementService.setUserId(1l);
         Client client = new ClientBuilder()
-                //.setId(5l)
                 .setAddress("ABC")
                 .setPersonalNumericCode("123123123")
                 .setIdentityCardNumber(123123)
                 .setName("Costel").build();
         clientRepository.addClient(client);
-        Account account =  new AccountBuilder()//.setId(5l)
+        Account account =  new AccountBuilder()
                 .setAmount(500.5)
                 .setType("CREDIT")
                 .setClientId(clientRepository.findAll().get(0).getId())
@@ -83,13 +81,12 @@ public class AccountManagementServiceMySQLTest {
         clientRepository.deleteAll();
         accountManagementService.setUserId(1l);
         Client client = new ClientBuilder()
-                //.setId(5l)
                 .setAddress("ABC")
                 .setPersonalNumericCode("123123123")
                 .setIdentityCardNumber(123123)
                 .setName("Costel").build();
         clientRepository.addClient(client);
-        Account account =  new AccountBuilder()//.setId(5l)
+        Account account =  new AccountBuilder()
                 .setAmount(500.5)
                 .setType("CREDIT")
                 .setClientId(clientRepository.findAll().get(0).getId())
@@ -104,13 +101,12 @@ public class AccountManagementServiceMySQLTest {
         clientRepository.deleteAll();
         accountManagementService.setUserId(1l);
         Client client = new ClientBuilder()
-                //.setId(5l)
                 .setAddress("ABC")
                 .setPersonalNumericCode("123123123")
                 .setIdentityCardNumber(123123)
                 .setName("Costel").build();
         clientRepository.addClient(client);
-        Account account =  new AccountBuilder()//.setId(5l)
+        Account account =  new AccountBuilder()
                 .setAmount(500.5)
                 .setType("CREDIT")
                 .setClientId(clientRepository.findAll().get(0).getId())
@@ -124,13 +120,12 @@ public class AccountManagementServiceMySQLTest {
         clientRepository.deleteAll();
         accountManagementService.setUserId(1l);
         Client client = new ClientBuilder()
-                //.setId(5l)
                 .setAddress("ABC")
                 .setPersonalNumericCode("123123123")
                 .setIdentityCardNumber(123123)
                 .setName("Costel").build();
         clientRepository.addClient(client);
-        Account account =  new AccountBuilder()//.setId(5l)
+        Account account =  new AccountBuilder()
                 .setAmount(500.5)
                 .setType("CREDIT")
                 .setClientId(clientRepository.findAll().get(0).getId())
@@ -144,13 +139,12 @@ public class AccountManagementServiceMySQLTest {
         clientRepository.deleteAll();
         accountManagementService.setUserId(1l);
         Client client = new ClientBuilder()
-                //.setId(5l)
                 .setAddress("ABC")
                 .setPersonalNumericCode("123123123")
                 .setIdentityCardNumber(123123)
                 .setName("Costel").build();
         clientRepository.addClient(client);
-        Account account =  new AccountBuilder()//.setId(5l)
+        Account account =  new AccountBuilder()
                 .setAmount(500.5)
                 .setType("CREDIT")
                 .setClientId(clientRepository.findAll().get(0).getId())
@@ -166,18 +160,17 @@ public class AccountManagementServiceMySQLTest {
         clientRepository.deleteAll();
         accountManagementService.setUserId(1l);
         Client client = new ClientBuilder()
-                //.setId(5l)
                 .setAddress("ABC")
                 .setPersonalNumericCode("123123123")
                 .setIdentityCardNumber(123123)
                 .setName("Costel").build();
         clientRepository.addClient(client);
-        Account account =  new AccountBuilder()//.setId(5l)
+        Account account =  new AccountBuilder()
                 .setAmount(500.5)
                 .setType("CREDIT")
                 .setClientId(clientRepository.findAll().get(0).getId())
                 .build();
-        Account accountTransfer =  new AccountBuilder()//.setId(5l)
+        Account accountTransfer =  new AccountBuilder()
                 .setAmount(500.5)
                 .setType("CREDIT")
                 .setClientId(clientRepository.findAll().get(0).getId())
